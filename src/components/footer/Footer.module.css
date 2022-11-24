@@ -1,0 +1,19 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 1px solid black;
+  padding: 15px 20px;
+}
+
+.footerContainer > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footerContainer > section > h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.header {
+  padding: 20px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 2px 8px 0 grey;
+  border-radius: 4px;
+  padding: 20px 0 10px 0;
+  background-color: white;
+}

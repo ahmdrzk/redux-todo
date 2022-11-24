@@ -1,0 +1,49 @@
+.statusFilter {
+  margin-bottom: 6px;
+}
+
+.statusCheckInput {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.statusCheckInput + label {
+  border: 2px solid transparent;
+  border-radius: 2px;
+  padding: 1px 2px;
+  cursor: pointer;
+}
+
+.statusCheckInput:checked + label {
+  border-color: red;
+  background-color: antiquewhite;
+}
+
+.colorCheckInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.colorLabel {
+  display: inline-block;
+  margin: 0 6px;
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+}
+
+input[name="green"] + label > .colorLabel {
+  background-color: green;
+}
+input[name="blue"] + label > .colorLabel {
+  background-color: blue;
+}
+input[name="orange"] + label > .colorLabel {
+  background-color: orange;
+}
+input[name="purple"] + label > .colorLabel {
+  background-color: purple;
+}
+input[name="red"] + label > .colorLabel {
+  background-color: red;
+}

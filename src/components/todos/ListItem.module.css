@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.container:not(:first-child) {
+  border-top: 1px solid gainsboro;
+}
+
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  border: 1px solid gainsboro;
+  border-radius: 9999px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  border-color: red;
+}
+
+.checkbox:checked::after {
+  content: "✔";
+  position: absolute;
+  top: 0;
+  left: 5px;
+  color: red;
+  font-size: 18px;
+}
+
+.checkbox:disabled {
+  background-color: lightsalmon;
+}
+
+.text {
+  margin-right: 40px;
+  margin-left: 15px;
+}
+
+.selectContainer {
+  margin-right: 15px;
+  margin-left: auto;
+}
+
+.select {
+  min-width: 100px;
+  border: 1px solid red;
+  padding: 5px;
+  background-color: snow;
+}
+
+.deletebtn {
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  cursor: pointer;
+}

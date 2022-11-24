@@ -1,0 +1,17 @@
+.listContainer {
+  min-height: 400px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  color: brown;
+  text-align: center;
+}
+
+.textInput {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  padding: 10px 20px;
+  font-size: 18px;
+}

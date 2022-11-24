@@ -1,0 +1,17 @@
+.controlBtn {
+  border: none;
+  border-radius: 2px;
+  padding: 7px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.controlBtn:hover {
+  background-color: darkblue;
+}
+
+.controlBtn:not(:last-child) {
+  margin-bottom: 10px;
+}
